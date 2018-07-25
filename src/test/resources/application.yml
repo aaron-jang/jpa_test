@@ -1,0 +1,12 @@
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: debug
+        type:
+          descriptor:
+            sql: trace
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
